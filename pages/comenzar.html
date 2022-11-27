@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT | Comenzar</title>
+    <meta name="description" content="Unite a nuestra academia a traves del formulario.">
+    <link rel="icon" type="image/x-icon" href="../img/tennis.ico">
+    <link rel="stylesheet" href="../scss/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="navbar_title">
+                <div id="navbar_image">
+                    <img src="../img/tennis.png" alt="navbar_image" width="55px">
+                </div>
+                <h4>Academia de Tenis</h3>
+            </div>
+            <div id="hamburger_container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4 shadow-3" id="hidden_menu">
+                <button class="btn"><a href="../index.html">Inicio</a></button>
+                <button class="btn"><a href="./comenzar.html">Comenzar</a></button>
+                <button class="btn"><a href="./conocenos.html">Conocenos</a></button>
+                <button class="btn"><a href="./pagos.html">Pagos</a></button>
+                <button class="btn"><a href="./galeria.html">Galeria</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SECCION DEL FORMULARIO PARA UNIRSE A LA ACADEMIA -->
+        <section id="comenzar_form_section">
+                <div class="card shadow p-5 mb-2">
+                    <div>
+                        <div id="comenzar_title">
+                            <h5>Unite a nuestra academia!</h5>
+                            </p>
+                        </div>
+                    </div>
+                    <form action="">
+                        <fieldset>
+                            <div id="main_div">
+                                <div class="form-group">
+                                    <label for="" class="text-muted">Nombre Completo</label>
+                                    <input type="text" class="form-control" name="" id="" placeholder="Juan Perez">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="" class="text-muted">Fecha de Nacimiento</label>
+                                    <input type="date" class="form-control" name="" id="">
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="" class="text-muted">Correo Electronico</label>
+                                    <input type="email" class="form-control" name="" id="" placeholder="juanperez@hotmail.com">
+                                </div>
+                            </div>
+                            
+                            <div id="experience_div">
+                                <div class="form-group">
+                                    <label for="" class="text-muted">Experiencia:</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="P">Principiante</option>
+                                        <option value="I">Intermedio</option>
+                                        <option value="A">Avanzado</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="text-muted">Algo mas que quieras contarnos?</label>
+                                    <textarea name="" id="" cols="35" rows="5" class="form-control"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary" type="submit">Enviar</button>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <img src="../img/pelota-de-tenis.png" alt="tennis_ball" width="40px">
+        </div>
+
+        <div>
+            <p>Academia de Tenis &copy 2022</p>
+        </div>
+
+        <div id="footer_social">
+            <img src="../img/facebook.png" alt="facebook_icon">
+            <img src="../img/instagram.png" alt="instagram_icon">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

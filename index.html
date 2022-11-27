@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT | Inicio</title>
+    <meta name="description" content="En Academia de Tenis ofrecemos clases de tenis para niños, jovenes y adultos.">
+    <meta name="keywords" content="TENIS, CORDOBA, ARGENTINA, LADRILLO, CLASES, ACADEMIA, RAQUETA, PELOTA, TORNEO, FEDERACION">
+    <link rel="icon" type="image/x-icon" href="./img/tennis.ico">
+    <link rel="stylesheet" href="./scss/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="navbar_title">
+                <div id="navbar_image">
+                    <img src="./img/tennis.png" alt="navbar_image" width="55px">
+                </div>
+                <h4>Academia de Tenis</h3>
+            </div>
+            <div id="hamburger_container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4 shadow-3" id="hidden_menu">
+                <button class="btn"><a href="./pages/comenzar.html">Comenzar</a></button>
+                <button class="btn"><a href="./pages/conocenos.html">Conocenos</a></button>
+                <button class="btn"><a href="./pages/pagos.html">Pagos</a></button>
+                <button class="btn"><a href="./pages/galeria.html">Galeria</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SECCION DE BIENVENIDA -->
+        <section id="welcome_section">
+            <div id="welcome_text">
+                <h5>Bienvenido!</h5>
+                <p>A la Academia de Tenis de Cordoba donde se dictan 
+                    clases para todas las edades y niveles. Desde escuelita para niños/adolescentes y
+                    competicion hasta adultos principiantes o avanzados.
+                </p>
+            </div>
+            <div>
+                <img src="./img/welcome_tennis.png" alt="welcome_image">
+            </div>
+        </section>
+
+
+        <!-- SECCION DE LAS CARDS DE DIFERENTES NIVELES -->
+        <section id="level_section">
+            <hr>
+            <div class="card shadow">
+                <div class="card-body">
+                    <h6>Niños / Adolescentes</h6>
+                    <ul>
+                        <li>Junior / Escuelita <p>Clases de tenis usando media cancha y pelotas de baja presion de nivel rojo, naranja o verde. Se orienta mas a los niños para que aprendan las bases a traves de juegos.</p> </li>
+                        <li>Competicion <p>Clases de tenis para chicos que ya estan compitiendo en torneos nacionales o internacionales. Tambien hacemos un seguimiento y guia de torneos.</p> </li>
+                    </ul>
+                    <a href="./pages/comenzar.html"><button class="btn btn-success">Comenzar</button></a>
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <div class="card-body">
+                    <h6>Adultos</h6>
+                    <ul>
+                        <li>Principiante <p>Clases de tenis para adultos como actividad recreativa. Separamos por sexo y nivel de juego en grupos de no mas de 4 personas.</p> </li>
+                        <li>Avanzado <p>Clases de tenis para adultos de nivel avanzado ya sea para actividad recreativa o competicion. Tambien separamos por sexo y nivel de juego
+                            en grupos de no mas de 4 personas.</p> </li>
+                    </ul>
+                    <a href="./pages/comenzar.html"><button class="btn btn-success">Comenzar</button></a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION DE UBICACION -->
+        <section id="location_section">
+            <div>
+                <div class="title">
+                    <h5>Donde estamos?</h5>
+                </div>
+                <p>Nos encontramos en el barrio Siete Soles de la Ciudad de Cordoba. El barrio se encuentra en colectora de ruta N20 Km 14 camino a Carlos Paz. A continuacion
+                    adjuntamos un mapa para mejor ubicacion.
+                </p>
+            </div>
+
+            <div class="map-responsive row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d217886.78757574625!2d-64.51318866248813!3d-31.42842095467067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-31.3983334!2d-64.4674206!4m5!1s0x9432a2a6a6562fdf%3A0x6bbe71e4b73c8dfe!2ssiete%20soles!3m2!1d-31.438893999999998!2d-64.3032594!5e0!3m2!1ses-419!2sar!4v1668013391186!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <img src="./img/pelota-de-tenis.png" alt="tennis_ball" width="40px">
+        </div>
+
+        <div>
+            <p>Academia de Tenis &copy 2022</p>
+        </div>
+
+        <div id="footer_social">
+            <img src="./img/facebook.png" alt="facebook_icon">
+            <img src="./img/instagram.png" alt="instagram_icon">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

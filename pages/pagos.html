@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT | Pagos</title>
+    <meta name="description" content="Sistemas de abono de cuotas">
+    <link rel="icon" type="image/x-icon" href="../img/tennis.ico">
+    <link rel="stylesheet" href="../scss/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="navbar_title">
+                <div id="navbar_image">
+                    <img src="../img/tennis.png" alt="navbar_image" width="55px">
+                </div>
+                <h4>Academia de Tenis</h3>
+            </div>
+            <div id="hamburger_container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4 shadow-3" id="hidden_menu">
+                <button class="btn"><a href="../index.html">Inicio</a></button>
+                <button class="btn"><a href="./comenzar.html">Comenzar</a></button>
+                <button class="btn"><a href="./conocenos.html">Conocenos</a></button>
+                <button class="btn"><a href="./pagos.html">Pagos</a></button>
+                <button class="btn"><a href="./galeria.html">Galeria</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCION DEL FORUMALRIO DE PAGOS -->
+        <section id="pagos_section">
+            <div class="card shadow p-5">
+                <div id="payment_image">
+                    <img src="../img/payment-method.png" alt="payment_icon" width="40px">
+                </div>
+                <form action="">
+                    <fieldset>
+                        <div id="first_section">
+                            <div class="form-group">
+                                <label for="" class="text-muted">Numero de Tarjeta</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="**** **** **** 1234">
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="" class="text-muted">Fecha de Vencimiento</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="06/25">
+                            </div>
+                        </div>
+
+                        <div id="second_section">
+                            <div class="form-group">
+                                <label for="" class="text-muted">CVV</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="345">
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="" class="text-muted">Nombre del Titular</label>
+                                <input type="text" class="form-control" name="" id="" placeholder="Perez Juan">
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+                <button class="btn btn">Pagar</button>
+            </div>
+
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <img src="../img/pelota-de-tenis.png" alt="tennis_ball" width="40px">
+        </div>
+
+        <div>
+            <p>Academia de Tenis &copy 2022</p>
+        </div>
+
+        <div id="footer_social">
+            <img src="../img/facebook.png" alt="facebook_icon">
+            <img src="../img/instagram.png" alt="instagram_icon">
+        </div>
+    </footer>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

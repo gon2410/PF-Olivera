@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT | Conocenos</title>
+    <meta name="description" content="Breve descripcion de cada uno de nuestros profesores.">
+    <link rel="icon" type="image/x-icon" href="../img/tennis.ico">
+    <link rel="stylesheet" href="../scss/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="navbar_title">
+                <div id="navbar_image">
+                    <img src="../img/tennis.png" alt="navbar_image" width="55px">
+                </div>
+                <h4>Academia de Tenis</h3>
+            </div>
+            <div id="hamburger_container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4 shadow-3" id="hidden_menu">
+                <button class="btn"><a href="../index.html">Inicio</a></button>
+                <button class="btn"><a href="./comenzar.html">Comenzar</a></button>
+                <button class="btn"><a href="./conocenos.html">Conocenos</a></button>
+                <button class="btn"><a href="./pagos.html">Pagos</a></button>
+                <button class="btn"><a href="./galeria.html">Galeria</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCION DE CARDS DE PROFESORES -->
+        <section id="profesores_section">
+            <div class="card shadow">
+                <img src="../img/santi.jpg" class="card-img-top" alt="santiago_profile_image">
+                <div class="card-body">
+                    <h5 class="card-title">Santiago Beretta</h5>
+                    <button type="button" class="btn text-muted" data-bs-toggle="modal" data-bs-target="#modalSantiago">Ver mas</button>
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img src="../img/nica.jpg" class="card-img-top" alt="nicanor_profile_image">
+                <div class="card-body">
+                    <h5 class="card-title">Nicanor Beretta</h5>
+                    <button type="button" class="btn text-muted" data-bs-toggle="modal" data-bs-target="#modalNicanor">Ver mas</button>
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <img src="../img/igna.jpg" class="card-img-top" alt="ignacio_profile_image">
+                <div class="card-body">
+                    <h5 class="card-title">Ignacio Marchesini</h5>
+                    <button type="button" class="btn text-muted" data-bs-toggle="modal" data-bs-target="#modalIgnacio">Ver mas</button>
+                </div>
+            </div>
+
+
+
+            <!-- MODALS DE LOS PROFESORES -->
+            <div class="modal fade" id="modalSantiago" tabindex="-1" aria-labelledby="santiagoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="santiagoModalLabel">Santiago Beretta</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal_image">
+                                <img src="../img/santi.jpg" alt="santiago_modal_image" class="img-fluid">
+                            </div>
+                            <h6 class="mt-2">Director / Profesor</h6>
+                            <h6>Edad: 27 años</h6>
+                            <h6>Titulo: Profesor de Tenis AAT Nivel 2</h6>
+                            <p>Comenzó a jugar a los 8 años en el Cordoba Athletic Club. A los 12 se federó empezo a competir 
+                                en torneos nacionales en Cordoba y alrededores. Fue campeon de torneos G4 en 3 ocasiones y en
+                                torneos G3 en 2 ocasiones. Alcanzo semi finales de G2.
+                                De mas grande jugó clasificaciones a torneos Future (Profesionales ATP) y tornos de Primera Nacionales.
+                                En 2016 dejo de competir y decidio comenzar a enseñar tenis. Actualmente posee el titulo PTR Nivel 2 que
+                                lo habilita a entrenar a jugadores avanzado que ya compiten.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalNicanor" tabindex="-1" aria-labelledby="nicanorModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="nicanorModalLabel">Nicanor Beretta</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal_image">
+                                <img src="../img/nica.jpg" alt="nicanor_modal_image" class="img-fluid">
+                            </div>
+                            <h6 class="mt-2">Profesor</h6>
+                            <h6>Edad: 25 años</h6>
+                            <h6>Titulo: Profesor de Tenis AAT Nivel 1</h6>
+                            <p>Comenzó a jugar al tenis en el club General Paz Juniors de Cordoba donde entrenó hasta los 18 años.
+                                Se federo a los 16 y comenzo a competir en torneo nacionales G4 Y G3. Tambien participó en varias
+                                clasificaciones de Future. Posee el titulo de validez nacional e internacional de la Asociacion Argentina
+                                te Tenis Nivel 1 lo que la habilita a especializarse en la enseñanza de los mas chicos y adultos principiantes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalIgnacio" tabindex="-1" aria-labelledby="ignacioModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ignacioModalLabel">Ignacio Marchesini</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal_image">
+                                <img src="../img/igna.jpg" alt="ignacio_modal_image" class="img-fluid">
+                            </div>
+                            <h6 class="mt-2">Entrenador Fisico</h6>
+                            <h6>Edad: 25 años</h6>
+                            <h6>Titulo: Preparador Fisico IPEF</h6>
+                            <p>Tambien comenzó a jugar en el Cordoba Athletic Club donde entrenó por mas de 10 años. Se federó a los 14 años jugando torneos nacionales
+                                G4, G3 y G2 de los cuales fue campeon en 2 ocasiones (G4) y una ocasión (G3). Participó en torneos clasificatorios profesionales y varios
+                                torneos de primera nacionales. Llegado los 19 años decidio adentrarse en la carrera de preparador fisico y comenzó a estudiar en IPEF.
+                                Un titulo el cual lo habilita a preparar jugadores fisicamente de alto rendimiento. Todo lo aprendido lo enfoca al tenis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECCION DEL CLUB -->
+        <section id="club_section">
+            <div>
+                <div class="title">
+                    <h5>El club</h5>
+                </div>
+                <p>Actualmente contamos con dos canchas rapidas (cemento) pero al momento se encuentras en plena construccion 4 canchas de polvo
+                    de ladrillos para mejor espacio y organizacion. Sobra el espacio para realizar actividades fisicas para los competidores. Tambien
+                    contamos con baños con vestuario, bar para almorzar o comprar bebidas y estacionamiento para los vehiculos.
+                </p>
+            </div>
+            <!-- CONTENEDOR DEL CAROUSEL DE IMAGENES -->
+            <div>
+                <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_1.jpg" class="d-block w-100" alt="club_image_1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/club/club_2.jpg" class="d-block w-100" alt="club_image_2">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_3.jpg" class="d-block w-100" alt="club_image_3">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_4.jpg" class="d-block w-100" alt="club_image_4">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_5.jpg" class="d-block w-100" alt="club_image_5">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_6.jpg" class="d-block w-100" alt="club_image_6">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_12.jpg" class="d-block w-100" alt="club_image_7">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_7.jpg" class="d-block w-100" alt="club_image_8">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_8.jpg" class="d-block w-100" alt="club_image_9">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_9.jpg" class="d-block w-100" alt="club_image_10">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_10.jpg" class="d-block w-100" alt="club_image_11">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_11.jpg" class="d-block w-100" alt="club_image_12">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_13.jpg" class="d-block w-100" alt="club_image_13">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_14.jpg" class="d-block w-100" alt="club_image_14">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="../img/club/club_15.jpg" class="d-block w-100" alt="club_image_15">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <img src="../img/pelota-de-tenis.png" alt="tennis_ball" width="40px">
+        </div>
+
+        <div>
+            <p>Academia de Tenis &copy 2022</p>
+        </div>
+
+        <div id="footer_social">
+            <img src="../img/facebook.png" alt="facebook_icon">
+            <img src="../img/instagram.png" alt="instagram_icon">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
